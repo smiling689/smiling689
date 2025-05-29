@@ -45,6 +45,7 @@
 
 ## 📊 GitHub 数据统计
 
+<div align="center">
 
 <!-- GitHub 数据统计 -->
 
@@ -52,17 +53,4 @@
 
 <img src  = "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=smiling689&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
 
-
-
-
-<!-- GitHub Activity Graph GitHub 活动图 -->
-<table>
-  <tr>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-activity-graph.vercel.app/graph?username=smiling689&theme=tokyo-night" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=smiling689&theme=xcode" />
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=smiling689&theme=tokyo-night" />
-      </picture>
-  </tr>
-</table>
+</div>
