@@ -11,14 +11,6 @@
   <div>&nbsp;</div>
 
 
-<!-- profile logo 个人资料徽标 -->
-  <div>
-    <a href="https://github.com/smiling689/?DonotwannaPublicNow"><img src="https://img.shields.io/badge/Website-博客-8c36db" /></a>&emsp;
-    <img src="https://komarev.com/ghpvc/?username=smiling689&label=Views&color=orange&style=flat" alt="访问量统计" />&emsp;
-  </div>
-
-
-
 </div>
 
 #  🙋 Hello
@@ -30,27 +22,17 @@
 
 ### 🤺 About Me
 
-<img align="right" width="88" src="https://avatars.githubusercontent.com/u/45090349?v=4" />
+- I'm Smiling.
 
-<p>&emsp;&emsp;嗨，我是Smiling。目前就读于上海交通大学2024级致远学院John班。</p>
+- B.S. Candidate in Science, Zhiyuan College, John Honors Class
 
-  <!-- for beauty 留个空行好看点 -->
-  <div>&nbsp;</div>
+- I'm currently focusing on Machine Learning Systems, trying to optimize large language model inference.
 
-</td></tr>
+### 📊 Coding
 
-
-</table>
-</div>
-
-## 📊 GitHub 数据统计
-
-<div align="center">
-
-<!-- GitHub 数据统计 -->
+<p align="center">
+    <img src='https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=NephrenCake&layout=compact&exclude_repo=NephrenCake.github.io&hide_border=true&langs_count=10&theme=buefy' width='300px'>
+</p>
 
 
-<img src  = "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=smiling689&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
-
-</div>
 
