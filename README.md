@@ -15,7 +15,7 @@
 
 ### 🤺 About Me
 
-- I'm Smiling, B.S. Candidate in Science, Zhiyuan College, John Honors Class
+- I'm Smiling, B.S. Candidate in Computer Science and Technology, Zhiyuan College, John Honors Class
 
 - I'm currently focusing on Machine Learning Systems, trying to optimize large language model inference.
 
