@@ -13,13 +13,6 @@
 
 </div>
 
-#  🙋 Hello
-<div align="center">
-
-<table>
-
-<tr><td>
-
 ### 🤺 About Me
 
 - I'm Smiling.
@@ -31,7 +24,7 @@
 ### 📊 Coding
 
 <p align="center">
-    <img src='https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=NephrenCake&layout=compact&exclude_repo=NephrenCake.github.io&hide_border=true&langs_count=10&theme=buefy' width='300px'>
+    <img src='https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=smiling689&layout=compact&hide_border=true&langs_count=10&theme=buefy' width='300px'>
 </p>
 
 
