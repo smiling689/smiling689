@@ -18,14 +18,6 @@
 > The public repos here are mostly **course assignments and small side projects** from my undergrad years.
 > My research projects are still in progress — their repos will show up here once the work is complete. 🌱
 
-### 🧰 Tech Stack
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,py,pytorch,linux,bash,docker,git,vim,ts&perline=10" alt="C, C++, Python, PyTorch, Linux, Bash, Docker, Git, Vim, TypeScript" />
-  </a>
-</p>
-
 ### 🗂️ What's Here
 
 |     | Area                       | Repos |
