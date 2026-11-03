@@ -11,8 +11,8 @@
 
 - 🎓 CS undergraduate at **Shanghai Jiao Tong University**, John Class, Zhiyuan College.
 - 🔬 Working on **Machine Learning Systems**, mainly **LLM inference & serving**.
-- 👀 Also curious about GPU kernels, large-scale training, and ML compilers.
-- 🎮 Off the clock: anime (yuri & isekai lately), light novels, games, and trying out every new AI model I can get my hands on.
+- 👀 Beyond that, I keep an eye on the broader AI landscape: GPU kernels & compilers, distributed training & RL post-training, agent systems, and new model architectures.
+- 🎮 Off the clock: anime (yuri & isekai lately), light novels, games, and test-driving the latest AI models as soon as they come out.
 
 > [!NOTE]
 > The public repos here are mostly **course assignments and small side projects** from my undergrad years.
