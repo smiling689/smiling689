@@ -22,7 +22,9 @@
 ### 📊 Coding
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smiling689&layout=compact" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs.svg" />
+    <img src="./profile/top-langs.svg" alt="Top Languages" />
+  </picture>
 </p>
