@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #58A6FF;
+            fill: #f472b6;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -38,7 +38,7 @@
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #C3D1D9;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #c9d1d9;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -47,7 +47,7 @@
     .bold { font-weight: 700 }
     .lang-name {
       font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #C3D1D9;
+      fill: #c9d1d9;
     }
     .stagger {
       opacity: 0;
@@ -101,8 +101,8 @@
           height="99%"
           stroke="#e4e2e2"
           width="299"
-          fill="#0D1117"
-          stroke-opacity="1"
+          fill="#00000000"
+          stroke-opacity="0"
         />
 
         
@@ -138,7 +138,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="127.19"
+          width="208.25"
           height="8"
           fill="#3572A5"
         />
@@ -146,19 +146,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="127.19"
+          x="208.25"
           y="0"
-          width="97.86"
-          height="8"
-          fill="#E22837"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="225.05"
-          y="0"
-          width="14.24"
+          width="23.32"
           height="8"
           fill="#DA5B0B"
         />
@@ -166,9 +156,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="239.29000000000002"
+          x="231.57"
           y="0"
-          width="15.11"
+          width="18.369999999999997"
           height="8"
           fill="#f34b7d"
         />
@@ -176,9 +166,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="244.40000000000003"
+          x="239.94"
           y="0"
-          width="12.129999999999999"
+          width="13.48"
           height="8"
           fill="#555555"
         />
@@ -186,9 +176,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="246.53000000000003"
+          x="243.42"
           y="0"
-          width="11.7"
+          width="12.79"
           height="8"
           fill="#e34c26"
         />
@@ -196,9 +186,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="248.23000000000002"
+          x="246.20999999999998"
           y="0"
-          width="10.94"
+          width="11.54"
           height="8"
           fill="#d0b68c"
         />
@@ -206,11 +196,21 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="249.17000000000002"
+          x="247.74999999999997"
           y="0"
-          width="10.84"
+          width="11.370000000000001"
           height="8"
           fill="#427819"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="249.11999999999998"
+          y="0"
+          width="10.88"
+          height="8"
+          fill="#EB8CEB"
         />
       
       
@@ -219,56 +219,56 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 50.88%
+        Python 83.30%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#E22837" />
+      <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        mcfunction 39.14%
+        Jupyter Notebook 9.33%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
+      <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Jupyter Notebook 5.70%
+        C++ 3.35%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms">
-      <circle cx="5" cy="6" r="5" fill="#f34b7d" />
+      <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C++ 2.04%
+        C 1.39%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#555555" />
+      <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 0.85%
+        HTML 1.11%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#e34c26" />
+      <circle cx="5" cy="6" r="5" fill="#d0b68c" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML 0.68%
+        Rocq Prover 0.62%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#d0b68c" />
+      <circle cx="5" cy="6" r="5" fill="#427819" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Rocq Prover 0.38%
+        Makefile 0.55%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms">
-      <circle cx="5" cy="6" r="5" fill="#427819" />
+      <circle cx="5" cy="6" r="5" fill="#EB8CEB" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Makefile 0.33%
+        XSLT 0.35%
       </text>
     </g>
   </g></g>
