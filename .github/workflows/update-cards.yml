@@ -5,6 +5,11 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+env:
+  LIGHT: title_color=db2777&icon_color=8b5cf6&text_color=434d58&bg_color=00000000&hide_border=true
+  DARK: title_color=f472b6&icon_color=a78bfa&text_color=c9d1d9&bg_color=00000000&hide_border=true
+  LANGS: layout=compact&langs_count=8&hide=mcfunction
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,11 +18,27 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - name: Generate stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&${{ env.LIGHT }}
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&${{ env.DARK }}
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate top languages card (light)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8
+          options: username=${{ github.repository_owner }}&${{ env.LANGS }}&${{ env.LIGHT }}
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -25,9 +46,17 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=github_dark
+          options: username=${{ github.repository_owner }}&${{ env.LANGS }}&${{ env.DARK }}
           path: profile/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/snake.svg?color_snake=#ec4899&color_dots=#ebedf0,#fbcfe8,#f9a8d4,#ec4899,#be185d
+            profile/snake-dark.svg?palette=github-dark&color_snake=#f472b6&color_dots=#161b22,#4c1d95,#7c3aed,#a78bfa,#f472b6
 
       - name: Commit cards
         run: |
