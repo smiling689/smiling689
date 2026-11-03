@@ -35,13 +35,10 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
-    <img src="./profile/top-langs.svg" alt="Top Languages" />
+    <img src="./profile/top-langs.svg" alt="Top Languages" width="32%" />
   </picture>
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg" />
-    <img src="./profile/snake.svg" alt="Contribution snake" />
+    <img src="./profile/snake.svg" alt="Contribution snake" width="65%" />
   </picture>
 </p>

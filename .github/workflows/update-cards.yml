@@ -8,7 +8,7 @@ on:
 env:
   LIGHT: title_color=db2777&icon_color=8b5cf6&text_color=434d58&bg_color=00000000&hide_border=true
   DARK: title_color=f472b6&icon_color=a78bfa&text_color=c9d1d9&bg_color=00000000&hide_border=true
-  LANGS: layout=compact&langs_count=8&hide=mcfunction
+  LANGS: layout=compact&langs_count=6&hide_title=true&hide=mcfunction
 
 jobs:
   build:
