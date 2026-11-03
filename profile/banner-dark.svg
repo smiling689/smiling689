@@ -19,54 +19,44 @@
   <text x="52" y="112" class="sans" font-size="46" font-weight="700" fill="url(#title)">Hi, I'm Smiling</text>
   <text x="54" y="158" class="mono" fill="#f472b6">&gt;</text>
     <clipPath id="c0"><rect x="78" y="138" width="0" height="28">
-      <animate attributeName="width" values="0;288.0;288.0;0;0" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="0.0s" repeatCount="indefinite" calcMode="spline"
+      <animate attributeName="width" values="0;288.0;288.0;0;0" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="0.0s" repeatCount="indefinite" calcMode="spline"
         keySplines="0.4 0 0.6 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1"/>
     </rect></clipPath>
     <text x="78" y="158" clip-path="url(#c0)" class="mono" fill="#e6edf3">Machine Learning Systems</text>
     <rect x="80" y="141" width="2.5" height="22" fill="#f472b6" class="cursor" opacity="0">
-      <animate attributeName="x" values="80;368.0;368.0;80;80" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="0.0s" repeatCount="indefinite" calcMode="spline"
+      <animate attributeName="x" values="80;368.0;368.0;80;80" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="0.0s" repeatCount="indefinite" calcMode="spline"
         keySplines="0.4 0 0.6 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1"/>
-      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="0.0s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="0.0s" repeatCount="indefinite" calcMode="discrete"/>
     </rect>
     <clipPath id="c1"><rect x="78" y="138" width="0" height="28">
-      <animate attributeName="width" values="0;252.0;252.0;0;0" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="3.2s" repeatCount="indefinite" calcMode="spline"
+      <animate attributeName="width" values="0;276.0;276.0;0;0" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="3.2s" repeatCount="indefinite" calcMode="spline"
         keySplines="0.4 0 0.6 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1"/>
     </rect></clipPath>
-    <text x="78" y="158" clip-path="url(#c1)" class="mono" fill="#e6edf3">Efficient LLM Serving</text>
+    <text x="78" y="158" clip-path="url(#c1)" class="mono" fill="#e6edf3">LLM Inference &amp; Serving</text>
     <rect x="80" y="141" width="2.5" height="22" fill="#f472b6" class="cursor" opacity="0">
-      <animate attributeName="x" values="80;332.0;332.0;80;80" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="3.2s" repeatCount="indefinite" calcMode="spline"
+      <animate attributeName="x" values="80;356.0;356.0;80;80" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="3.2s" repeatCount="indefinite" calcMode="spline"
         keySplines="0.4 0 0.6 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1"/>
-      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="3.2s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="3.2s" repeatCount="indefinite" calcMode="discrete"/>
     </rect>
     <clipPath id="c2"><rect x="78" y="138" width="0" height="28">
-      <animate attributeName="width" values="0;240.0;240.0;0;0" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="6.4s" repeatCount="indefinite" calcMode="spline"
+      <animate attributeName="width" values="0;384.0;384.0;0;0" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="6.4s" repeatCount="indefinite" calcMode="spline"
         keySplines="0.4 0 0.6 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1"/>
     </rect></clipPath>
-    <text x="78" y="158" clip-path="url(#c2)" class="mono" fill="#e6edf3">SLO-aware Scheduling</text>
+    <text x="78" y="158" clip-path="url(#c2)" class="mono" fill="#e6edf3">Curious about Kernels &amp; Training</text>
     <rect x="80" y="141" width="2.5" height="22" fill="#f472b6" class="cursor" opacity="0">
-      <animate attributeName="x" values="80;320.0;320.0;80;80" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="6.4s" repeatCount="indefinite" calcMode="spline"
+      <animate attributeName="x" values="80;464.0;464.0;80;80" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="6.4s" repeatCount="indefinite" calcMode="spline"
         keySplines="0.4 0 0.6 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1"/>
-      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="6.4s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="6.4s" repeatCount="indefinite" calcMode="discrete"/>
     </rect>
     <clipPath id="c3"><rect x="78" y="138" width="0" height="28">
-      <animate attributeName="width" values="0;228.0;228.0;0;0" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="9.6s" repeatCount="indefinite" calcMode="spline"
+      <animate attributeName="width" values="0;324.0;324.0;0;0" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="9.6s" repeatCount="indefinite" calcMode="spline"
         keySplines="0.4 0 0.6 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1"/>
     </rect></clipPath>
-    <text x="78" y="158" clip-path="url(#c3)" class="mono" fill="#e6edf3">KV-cache Management</text>
+    <text x="78" y="158" clip-path="url(#c3)" class="mono" fill="#e6edf3">Anime, Light Novels &amp; Games</text>
     <rect x="80" y="141" width="2.5" height="22" fill="#f472b6" class="cursor" opacity="0">
-      <animate attributeName="x" values="80;308.0;308.0;80;80" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="9.6s" repeatCount="indefinite" calcMode="spline"
+      <animate attributeName="x" values="80;404.0;404.0;80;80" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="9.6s" repeatCount="indefinite" calcMode="spline"
         keySplines="0.4 0 0.6 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1"/>
-      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="9.6s" repeatCount="indefinite" calcMode="discrete"/>
-    </rect>
-    <clipPath id="c4"><rect x="78" y="138" width="0" height="28">
-      <animate attributeName="width" values="0;324.0;324.0;0;0" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="12.8s" repeatCount="indefinite" calcMode="spline"
-        keySplines="0.4 0 0.6 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1"/>
-    </rect></clipPath>
-    <text x="78" y="158" clip-path="url(#c4)" class="mono" fill="#e6edf3">Anime, Light Novels &amp; Games</text>
-    <rect x="80" y="141" width="2.5" height="22" fill="#f472b6" class="cursor" opacity="0">
-      <animate attributeName="x" values="80;404.0;404.0;80;80" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="12.8s" repeatCount="indefinite" calcMode="spline"
-        keySplines="0.4 0 0.6 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1"/>
-      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0.0000;0.0875;0.1625;0.1875;1.0000" dur="16.0s" begin="12.8s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0.0000;0.1094;0.2031;0.2344;1.0000" dur="12.8s" begin="9.6s" repeatCount="indefinite" calcMode="discrete"/>
     </rect>
   <rect x="54" y="180" width="64" height="4" rx="2" fill="url(#title)"/>
   <rect x="588" y="56" width="22" height="22" rx="5" fill="#2d2440"/><rect x="588" y="56" width="22" height="22" rx="5" fill="#f472b6" opacity="0"><animate attributeName="opacity" values="0;0;0.95;0.95;0;0" keyTimes="0;0.050;0.070;0.86;0.93;1" dur="7.0s" repeatCount="indefinite"/></rect>

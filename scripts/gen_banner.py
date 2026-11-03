@@ -6,9 +6,8 @@ from pathlib import Path
 W, H = 840, 220
 PHRASES = [
     "Machine Learning Systems",
-    "Efficient LLM Serving",
-    "SLO-aware Scheduling",
-    "KV-cache Management",
+    "LLM Inference & Serving",
+    "Curious about Kernels & Training",
     "Anime, Light Novels & Games",
 ]
 STEP = 3.2  # seconds each phrase occupies
